@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>LOGIN</title>
+	</head>
+	<body>
+		<form>
+			<table border="1" align="center" bgcolor="pink" >
+				<tr>
+					<td>USERNAME</td>
+					<td><input type="text" id="user"></td>
+				</tr>
+				<tr>
+					<td>PASSWORD</td>
+					<td><input type="text" id="pass"></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="LOGIN" name="login" onclick=login1()></td>
+					<td><input type="reset" value="RESET" name="reset"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+	<script>
+		function login1() 
+		{
+			var username = document.getElementById("user").value;
+			var password = document.getElementById("pass").value;
+		if(username=="MVSREC" && password=="itd")
+		{
+			window.alert("login succesfull");
+		}
+		else
+		{
+			window.alert("login failed");
+		}
+		}
+	</script>
+</html>
