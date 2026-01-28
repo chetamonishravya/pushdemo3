@@ -1,0 +1,59 @@
+[O<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+<form>
+<table align="center" border="2" style="border-color: lightpink;">
+    <tr>
+        <td>Name</td> <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+        <td>Phone Number</td> <td><input type="text" name="phone"></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="trans"> Trans
+        </td>
+    </tr>
+    <tr>
+        <td>Address</td> <td><textarea name="address" rows="3"></textarea></td>
+    </tr>
+    <tr>
+        <td>Hobbies</td>
+        <td>
+            <input type="checkbox" name="hobbies" value="singing"> Singing
+            <input type="checkbox" name="hobbies" value="reading"> Reading
+            <input type="checkbox" name="hobbies" value="playing"> Playing
+        </td>
+    </tr>
+    <tr>
+        <td>Skills</td>
+        <td>
+            <input type="checkbox" name="skills" value="coding"> Coding
+           <input type="checkbox" name="skills" value="communication"> Communication
+            <input type="checkbox" name="skills" value="team"> Team Leading
+        </td>
+    </tr>
+    <tr>
+        <td>Highest Qualification</td>
+        <td>
+            <select name="qualification">
+                <option>Select Qualification</option>
+                <option>10th</option>
+                <option>12th</option>
+                <option>B.Tech</option>
+                <option>Masters</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Register"></td> <td><input type="reset" value="Reset"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
